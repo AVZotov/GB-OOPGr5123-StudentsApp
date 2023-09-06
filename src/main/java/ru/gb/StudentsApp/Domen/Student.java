@@ -1,6 +1,6 @@
 package ru.gb.StudentsApp.Domen;
 
-public class Student extends Person{
+public class Student extends Person implements Comparable<Student>{
     private static int entitiesCount;
 
     static {
@@ -17,5 +17,19 @@ public class Student extends Person{
 
     public int getId() {
         return id;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
+
+    @Override
+    public int compareTo(Student o) {
+        return name.compareTo(o.name);
     }
 }
