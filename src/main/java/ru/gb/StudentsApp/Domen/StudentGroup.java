@@ -17,6 +17,14 @@ public class StudentGroup implements Iterable<Student>, Comparable<StudentGroup>
     }
 
     /**
+     * Method to get List of students
+     * @return List< Student >
+     */
+    public List<Student> GetStudents(){
+        return this.students;
+    }
+
+    /**
      * Method to simplify collection converting to string with predefined logic
      * Use StringBuilder as base for string creation
      * @return String
