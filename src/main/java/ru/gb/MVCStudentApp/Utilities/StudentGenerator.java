@@ -24,36 +24,6 @@ public class StudentGenerator {
         return new Student(GetName(), random.nextInt(18, 31));
     }
 
-    /**
-     * Method to get randomly created Student Group
-     * @return StudentGroup
-     */
-//    public StudentGroup GetStudentGroup(){
-//        return new StudentGroup(GetStudentList(), random.nextInt(1, 101));
-//    }
-
-    /**
-     * Method to get randomly created Student Stream
-     * @return StudentStream
-     */
-//    public StudentStream GetStudentStream(){
-//        return new StudentStream(GetStudentGroupList(), random.nextInt(1, 50));
-//    }
-
-    /**
-     * Support method to create List of student groups
-     * @return List of StudentGroup
-     */
-//    private List<StudentGroup> GetStudentGroupList(){
-//        List<StudentGroup> studentGroups = new ArrayList<>();
-//        int groupsAmount = random.nextInt(2, 5);
-//
-//        for (int i = 0; i < groupsAmount; i++) {
-//            studentGroups.add(GetStudentGroup());
-//        }
-//
-//        return studentGroups;
-//    }
 
     /**
      * Support method to create List of students
