@@ -17,8 +17,8 @@ public class ConsoleIO implements IVewIO{
     }
 
     @Override
-    public double GetValue() {
-        return Double.parseDouble(scanner.nextLine());
+    public String GetGetUserInput() {
+        return scanner.nextLine();
     }
 
     @Override

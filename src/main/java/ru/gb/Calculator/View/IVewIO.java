@@ -20,7 +20,7 @@ public interface IVewIO {
      * Method to get value from user
      * @return double
      */
-    double GetValue();
+    String GetGetUserInput();
 
     /**
      * Method to get operator from user
